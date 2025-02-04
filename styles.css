@@ -11,24 +11,19 @@ header {
 }.logo-nav-container {
     display: flex;
     align-items: center;
-    justify-content: center; /* Center logo */
+    justify-content: center;
     max-width: 90%;
     margin: 0 auto;
-}
-
-.logo-and-name {
+}.logo-and-name {
     display: flex;
     flex-direction: column;
     align-items: center;
-}
-
-.company-name {
+}.company-name {
     font-size: 1.8rem;
     color: white;
     font-weight: bold;
     letter-spacing: 0.05em;
 }
-
 
 header.logo-nav-container img {
     width: 100px;
@@ -72,10 +67,6 @@ header.logo-nav-container img {
     background-color: #cce0ff;
 }
 
-#about.section {
-    height: 100%;
-}
-
 #book {
     background-color: #b3d1ff;
 }
@@ -92,7 +83,6 @@ footer {
     margin-top: 20px;
     padding: 20px;
 }
-
 
 footer a {
     color: inherit;
@@ -160,16 +150,16 @@ p {
 }.about-text {
     width: 100%;
     padding: 20px;
-}.specialties-grid {
+}.offerings-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     gap: 20px;
-}.specialty {
+}.offering {
     text-align: center; 
     padding: 20px;
     border: 1px solid #ddd;
     border-radius: 8px;  
-}.specialty img {
+}.offering img {
     width: 80px; 
     height: auto;
     margin-bottom: 10px;
