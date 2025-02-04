@@ -1,0 +1,180 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #f4f4f4;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #0056b3;
+    color: #f8f8f8;
+    padding: 15px 0;
+}.logo-nav-container {
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Center logo */
+    max-width: 90%;
+    margin: 0 auto;
+}
+
+.logo-and-name {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.company-name {
+    font-size: 1.8rem;
+    color: white;
+    font-weight: bold;
+    letter-spacing: 0.05em;
+}
+
+
+header.logo-nav-container img {
+    width: 100px;
+    height: auto;
+}.section {
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 80%;
+    background-color: #f8f8f8;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+}.hero {
+    position: relative;
+    text-align: center;
+    color: #f8f8f8;
+}.hero img {
+    width: 100%;
+    height: auto;
+    max-height: 500px;
+    object-fit: cover;
+}.hero-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+#home, #about, #book, #contact {
+    padding: 40px;
+    box-sizing: border-box;
+}
+
+#home {
+    background-color: #e6f0ff;
+}
+
+#about {
+    background-color: #cce0ff;
+}
+
+#about.section {
+    height: 100%;
+}
+
+#book {
+    background-color: #b3d1ff;
+}
+
+#contact {
+    background-color: #99c2ff;
+}
+
+footer {
+    background-color: #333;
+    color: #f8f8f8;
+    padding: 15px 0;
+    text-align: left;
+    margin-top: 20px;
+    padding: 20px;
+}
+
+
+footer a {
+    color: inherit;
+    text-decoration: none;
+}
+
+footer p {
+    margin-bottom: 10px;
+}.cta-button {
+    display: inline-block;
+    background-color: #ff9c07;
+    color: #f8f8f8;
+    padding: 15px 30px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+    font-size: 1em;
+}.cta-button:hover {
+    background-color: #d1810a;
+}
+
+h1 {
+    font-size: 3em;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 2.5em;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+h3 {
+    font-size: 2em;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+p {
+    font-size: 1.1em;
+    line-height: 1.7;
+    margin-bottom: 15px;
+}
+
+/* About Section Styling */
+#about {
+    column-count: 2;
+    column-gap: 20px;
+    column-width: 250px;
+}
+
+#about.about-content {
+    display: flex;
+    margin-bottom: 30px;
+}.about-image {
+    width: 100%;
+    padding: 20px;
+}.about-image img {
+    max-width: 100%;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+    column-span: all;
+}.about-text {
+    width: 100%;
+    padding: 20px;
+}.specialties-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}.specialty {
+    text-align: center; 
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;  
+}.specialty img {
+    width: 80px; 
+    height: auto;
+    margin-bottom: 10px;
+}.cta-button.centered {
+    display: block; 
+    margin: 10px auto;
+    width: fit-content;
+}
